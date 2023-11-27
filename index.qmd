@@ -21,12 +21,12 @@ Welcome to the supplementary information repository for "Genomic diversity of ma
 
 ## How to use the repository
 
-The [GitHub repository](https://github.com/sipbs-compbiol/SI_Kamat_et_al_Clostridium_diversity) associated with this page contains supporting data for the Kamat _et al._ paper "Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis." It also provides scripts used to generate the supporting data.
+The [GitHub repository](https://github.com/widdowquinn/SI_Kamat_et_al_Clostridium_diversity) associated with this page contains supporting data for the Kamat _et al._ paper "Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis." It also provides scripts used to generate the supporting data.
 
 To clone the repository to your own machine using `git`, issue the command:
 
 ```bash
-git clone git@github.com:sipbs-compbiol/SI_Kamat_et_al_Clostridium_diversity
+git clone git@github.com:widdowquinn/SI_Kamat_et_al_Clostridium_diversity
 ```
 
 All data and analyses can be found in the `assets/analysis` subdirectory.

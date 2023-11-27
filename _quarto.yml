@@ -3,6 +3,7 @@ project:
 
 website:
   title: "SI_Kamat_et_al"
+  site-url: https://widdowquinn.github.io/sipbs-internships
   navbar:
     logo: ./assets/images/sipbs_compbio.png
     right:
