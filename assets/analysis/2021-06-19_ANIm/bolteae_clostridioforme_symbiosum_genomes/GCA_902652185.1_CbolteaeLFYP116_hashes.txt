@@ -1,0 +1,15 @@
+ab8986e1a59a818f9517b20abad6ccdc  ./GCA_902652185.1_CbolteaeLFYP116_assembly_report.txt
+cafa0e6400a9ecb6199def620497c60b  ./GCA_902652185.1_CbolteaeLFYP116_assembly_stats.txt
+f41c7e894fa193ca0d86716879c5a289  ./GCA_902652185.1_CbolteaeLFYP116_cds_from_genomic.fna.gz
+76554121938086ab55c590481e06de93  ./GCA_902652185.1_CbolteaeLFYP116_feature_count.txt.gz
+8d2f7907c7af6de30167135310ddfa9e  ./GCA_902652185.1_CbolteaeLFYP116_feature_table.txt.gz
+6fd9b56d56e3c8600dfb8c6fe323005b  ./GCA_902652185.1_CbolteaeLFYP116_genomic.fna.gz
+2e582937586e481d3ab211b4a632439d  ./GCA_902652185.1_CbolteaeLFYP116_genomic.gbff.gz
+8f843e2bd984adb01392bad5b104d85d  ./GCA_902652185.1_CbolteaeLFYP116_genomic.gff.gz
+7bd3deaa2934ba0bdab1699d081c9c31  ./GCA_902652185.1_CbolteaeLFYP116_genomic.gtf.gz
+db893498b089507810247f333c4fb562  ./GCA_902652185.1_CbolteaeLFYP116_protein.faa.gz
+e28f4c52e65c52afc3294df41d9cdfae  ./GCA_902652185.1_CbolteaeLFYP116_protein.gpff.gz
+51d35ae9fd2d17b0580a32d867a5c617  ./GCA_902652185.1_CbolteaeLFYP116_rna_from_genomic.fna.gz
+2f2425571ea505f40cb5c69e167fd730  ./GCA_902652185.1_CbolteaeLFYP116_translated_cds.faa.gz
+435aa8a9b75ecaf60d4e27e954bf982f  ./GCA_902652185.1_CbolteaeLFYP116_wgsmaster.gbff.gz
+663a8eaef49831a529660889469338a4  ./annotation_hashes.txt

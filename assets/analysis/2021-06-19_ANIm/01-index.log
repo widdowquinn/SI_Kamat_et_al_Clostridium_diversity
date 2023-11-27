@@ -1,0 +1,101 @@
+[INFO] [pyani.scripts.pyani_script]: Processed arguments: Namespace(citation=False, classfname=PosixPath('new_classes.txt'), debug=False, disable_tqdm=False, func=<function subcmd_index at 0x7f6366801a60>, indir=PosixPath('bolteae_clostridioforme_symbiosum_genomes'), labelfname=PosixPath('new_labels.txt'), logfile=PosixPath('01-index.log'), verbose=True, version=False)
+[INFO] [pyani.scripts.pyani_script]: command-line: /mnt/shared/scratch/lpritcha/apps/conda/envs/pyani_py38/bin/pyani index -v -l 01-index.log bolteae_clostridioforme_symbiosum_genomes --labels new_labels.txt --classes new_classes.txt
+[INFO] [pyani.scripts.pyani_script]: pyani version: 0.3.0-alpha
+[INFO] [pyani.scripts.pyani_script]: CITATION INFO
+[INFO] [pyani.scripts.pyani_script]: If you use pyani in your work, please cite the following publication:
+[INFO] [pyani.scripts.pyani_script]: 	Pritchard, L., Glover, R. H., Humphris, S., Elphinstone, J. G.,
+[INFO] [pyani.scripts.pyani_script]: 	& Toth, I.K. (2016) 'Genomics and taxonomy in diagnostics for
+[INFO] [pyani.scripts.pyani_script]: 	food security: soft-rotting enterobacterial plant pathogens.'
+[INFO] [pyani.scripts.pyani_script]: 	Analytical Methods, 8(1), 12–24. http://doi.org/10.1039/C5AY02550H
+[INFO] [pyani.scripts.pyani_script]: DEPENDENCIES
+[INFO] [pyani.scripts.pyani_script]: The authors of pyani gratefully acknowledge its dependence on
+[INFO] [pyani.scripts.pyani_script]: the following bioinformatics software:
+[INFO] [pyani.scripts.pyani_script]: 	MUMmer3: S. Kurtz, A. Phillippy, A.L. Delcher, M. Smoot, M. Shumway,
+[INFO] [pyani.scripts.pyani_script]: 	C. Antonescu, and S.L. Salzberg (2004), 'Versatile and open software
+[INFO] [pyani.scripts.pyani_script]: 	for comparing large genomes' Genome Biology 5:R12
+[INFO] [pyani.scripts.pyani_script]: 	BLAST+: Camacho C., Coulouris G., Avagyan V., Ma N., Papadopoulos J.,
+[INFO] [pyani.scripts.pyani_script]: 	Bealer K., & Madden T.L. (2008) 'BLAST+: architecture and applications.'
+[INFO] [pyani.scripts.pyani_script]: 	BMC Bioinformatics 10:421.
+[INFO] [pyani.scripts.pyani_script]: 	BLAST: Altschul, S.F., Madden, T.L., Schäffer, A.A., Zhang, J.,
+[INFO] [pyani.scripts.pyani_script]: 	Zhang, Z., Miller, W. & Lipman, D.J. (1997) 'Gapped BLAST and PSI-BLAST:
+[INFO] [pyani.scripts.pyani_script]: 	a new generation of protein database search programs.' Nucleic Acids Res.
+[INFO] [pyani.scripts.pyani_script]: 	25:3389-3402
+[INFO] [pyani.scripts.pyani_script]: 	Biopython: Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A,
+[INFO] [pyani.scripts.pyani_script]: 	Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL
+[INFO] [pyani.scripts.pyani_script]: 	(2009) Biopython: freely available Python tools for computational
+[INFO] [pyani.scripts.pyani_script]: 	molecular biology and bioinformatics. Bioinformatics, 25, 1422-1423
+[INFO] [pyani.scripts.subcommands.subcmd_index]: Scanning directory bolteae_clostridioforme_symbiosum_genomes for FASTA files
+[INFO] [pyani.scripts.subcommands.subcmd_index]: Found FASTA files:
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003433765.1_ASM343376v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_005845085.1_ASM584508v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_900049235.1_C.symbiosum_MappedAssembly_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/52423E_LM41A.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.C14940.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.90A7.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_900108895.1_IMG-taxon_2654588144_annotated_assembly_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371405.1_Clos_clos_CM201_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371605.1_Clos_clos_90A1_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_001406475.1_13470_2_83_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371565.1_Clos_clos_90A4_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371725.1_Clos_bolt_90A5_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003439835.1_ASM343983v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003463485.1_ASM346348v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_900461275.1_51765_A02_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000234155.1_Clos_clos_2_1_49FAA_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_001688665.1_ASM168866v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_001078425.1_Clos_bolt_WAL_14578_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_008632235.1_ASM863223v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCA_004555815.1_ASM455581v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.YL32.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_002959675.1_ASM295967v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003464745.1_ASM346474v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371645.1_Clos_bolt_90B8_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003458625.1_ASM345862v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_005844705.1_ASM584470v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_001405335.1_13470_2_84_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000189615.1_Clos_symb_WAL_14673_V2_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.LM42D.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_900447015.1_57530_A01_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371705.1_Clos_bolt_90A9_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_006538465.1_ASM653846v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_002221545.1_ASM222154v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.CM201.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.BAA613.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003437595.1_ASM343759v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000424325.1_ASM42432v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000154365.1_ASM15436v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/52424E_LM42D.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCA_902652275.1_CsymbiosumLFYP84_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/52422E_LM19R.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371505.1_Clos_clos_90A8_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003468225.1_ASM346822v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.LM41A.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000466485.1_ASM46648v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.LT0011.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371685.1_Clos_bolt_90B3_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003458165.1_ASM345816v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_001078445.1_Clos_clos_WAL_7855_v11_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.LM19B.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_002234575.2_ASM223457v2_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/43841.LM19R.1_contig.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371585.1_Clos_clos_90A3_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371545.1_Clos_clos_90A6_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371665.1_Clos_bolt_90B7_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_900113155.1_IMG-taxon_2593339147_annotated_assembly_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000189595.1_Clos_symb_WAL_14163_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCA_902652185.1_CbolteaeLFYP116_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_902374315.1_MGYG-HGUT-01367_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_003467855.1_ASM346785v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_002234575.1_ASM223457v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/52421E_LM19B.fasta already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCA_004558155.1_ASM455815v1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_902167935.1_Clostridium_symbiosum_TS_8243C_mod2_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_902374585.1_MGYG-HGUT-01386_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371525.1_Clos_clos_90A7_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_000371485.1_Clos_clos_90B1_V1_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_001688665.2_ASM168866v2_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_900100685.1_IMG-taxon_2654588145_annotated_assembly_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: bolteae_clostridioforme_symbiosum_genomes/GCF_902375545.1_MGYG-HGUT-01493_genomic.fna already indexed (using existing hash)
+[INFO] [pyani.scripts.subcommands.subcmd_index]: Writing classes file to bolteae_clostridioforme_symbiosum_genomes/new_classes.txt
+[INFO] [pyani.scripts.subcommands.subcmd_index]: Writing labels file to bolteae_clostridioforme_symbiosum_genomes/new_labels.txt
+[INFO] [pyani.scripts.pyani_script]: Completed. Time taken: 6.710

@@ -1,0 +1,4 @@
+5f7f27226e118a984db626bcdbeb5188        52423E_LM41A    clostridioforme
+ac643d0c70fcdcb18acba3fec6825b70        52424E_LM42D    clostridioforme
+e0c96bceaeb3e4234eae6b6cab1cd1f8        52422E_LM19R    symbiosum
+8ed3762599030305ccfa532eb1286df1        52421E_LM19B    symbiosum

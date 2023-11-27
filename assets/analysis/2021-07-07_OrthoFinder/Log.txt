@@ -1,0 +1,76 @@
+2021-07-07 13:58:02 : Started OrthoFinder version 2.5.2
+Command Line: /home/lpritc/.conda/envs/clostridia/bin/orthofinder -t 8 -a 8 -f 2021-06-22_CDS/proteins/ -o 2021-07-07_orthofinder
+
+WorkingDirectory_Base: 2021-07-07_orthofinder/Results_Jul07/WorkingDirectory/
+
+Species used: 
+0: 43841.90A7.1_contig.faa
+1: 43841.BAA613.1_contig.faa
+2: 43841.C14940.1_contig.faa
+3: 43841.CM201.1_contig.faa
+4: 43841.LT0011.1_contig.faa
+5: 43841.YL32.1_contig.faa
+6: 52421E_LM19B.faa
+7: 52422E_LM19R.faa
+8: 52423E_LM41A.faa
+9: 52424E_LM42D.faa
+10: GCA_004555815.1_ASM455581v1_genomic.faa
+11: GCA_004558155.1_ASM455815v1_genomic.faa
+12: GCA_902652185.1_CbolteaeLFYP116_genomic.faa
+13: GCA_902652275.1_CsymbiosumLFYP84_genomic.faa
+14: GCF_000154365.1_ASM15436v1_genomic.faa
+15: GCF_000189595.1_Clos_symb_WAL_14163_V1_genomic.faa
+16: GCF_000189615.1_Clos_symb_WAL_14673_V2_genomic.faa
+17: GCF_000234155.1_Clos_clos_2_1_49FAA_V1_genomic.faa
+18: GCF_000371405.1_Clos_clos_CM201_V1_genomic.faa
+19: GCF_000371485.1_Clos_clos_90B1_V1_genomic.faa
+20: GCF_000371505.1_Clos_clos_90A8_V1_genomic.faa
+21: GCF_000371525.1_Clos_clos_90A7_V1_genomic.faa
+22: GCF_000371545.1_Clos_clos_90A6_V1_genomic.faa
+23: GCF_000371565.1_Clos_clos_90A4_V1_genomic.faa
+24: GCF_000371585.1_Clos_clos_90A3_V1_genomic.faa
+25: GCF_000371605.1_Clos_clos_90A1_V1_genomic.faa
+26: GCF_000371645.1_Clos_bolt_90B8_V1_genomic.faa
+27: GCF_000371665.1_Clos_bolt_90B7_V1_genomic.faa
+28: GCF_000371685.1_Clos_bolt_90B3_V1_genomic.faa
+29: GCF_000371705.1_Clos_bolt_90A9_V1_genomic.faa
+30: GCF_000371725.1_Clos_bolt_90A5_V1_genomic.faa
+31: GCF_000424325.1_ASM42432v1_genomic.faa
+32: GCF_000466485.1_ASM46648v1_genomic.faa
+33: GCF_001078425.1_Clos_bolt_WAL_14578_V1_genomic.faa
+34: GCF_001078445.1_Clos_clos_WAL_7855_v11_genomic.faa
+35: GCF_001405335.1_13470_2_84_genomic.faa
+36: GCF_001406475.1_13470_2_83_genomic.faa
+37: GCF_001688665.1_ASM168866v1_genomic.faa
+38: GCF_001688665.2_ASM168866v2_genomic.faa
+39: GCF_002221545.1_ASM222154v1_genomic.faa
+40: GCF_002234575.1_ASM223457v1_genomic.faa
+41: GCF_002234575.2_ASM223457v2_genomic.faa
+42: GCF_002959675.1_ASM295967v1_genomic.faa
+43: GCF_003433765.1_ASM343376v1_genomic.faa
+44: GCF_003437595.1_ASM343759v1_genomic.faa
+45: GCF_003439835.1_ASM343983v1_genomic.faa
+46: GCF_003458165.1_ASM345816v1_genomic.faa
+47: GCF_003458625.1_ASM345862v1_genomic.faa
+48: GCF_003463485.1_ASM346348v1_genomic.faa
+49: GCF_003464745.1_ASM346474v1_genomic.faa
+50: GCF_003467855.1_ASM346785v1_genomic.faa
+51: GCF_003468225.1_ASM346822v1_genomic.faa
+52: GCF_005844705.1_ASM584470v1_genomic.faa
+53: GCF_005845085.1_ASM584508v1_genomic.faa
+54: GCF_006538465.1_ASM653846v1_genomic.faa
+55: GCF_008632235.1_ASM863223v1_genomic.faa
+56: GCF_900049235.1_C.symbiosum_MappedAssembly_genomic.faa
+57: GCF_900100685.1_IMG-taxon_2654588145_annotated_assembly_genomic.faa
+58: GCF_900108895.1_IMG-taxon_2654588144_annotated_assembly_genomic.faa
+59: GCF_900113155.1_IMG-taxon_2593339147_annotated_assembly_genomic.faa
+60: GCF_900447015.1_57530_A01_genomic.faa
+61: GCF_900461275.1_51765_A02_genomic.faa
+62: GCF_902167935.1_Clostridium_symbiosum_TS_8243C_mod2_genomic.faa
+63: GCF_902374315.1_MGYG-HGUT-01367_genomic.faa
+64: GCF_902374585.1_MGYG-HGUT-01386_genomic.faa
+65: GCF_902375545.1_MGYG-HGUT-01493_genomic.faa
+
+FN_Orthogroups: 2021-07-07_orthofinder/Results_Jul07/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: 2021-07-07_orthofinder/Results_Jul07/WorkingDirectory/
+2021-07-07 18:17:39 : OrthoFinder run completed

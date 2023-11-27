@@ -1,0 +1,15 @@
+010cd9ddd6a1a29d457be36dd9eeb4a7  ./GCA_902652275.1_CsymbiosumLFYP84_assembly_report.txt
+e5d66444735ce03a7f23f43a6a328cdb  ./GCA_902652275.1_CsymbiosumLFYP84_assembly_stats.txt
+197d26c03bcb021bcb00ac4d40561779  ./GCA_902652275.1_CsymbiosumLFYP84_cds_from_genomic.fna.gz
+21c33116d85120eceff11fa2c7b6ea29  ./GCA_902652275.1_CsymbiosumLFYP84_feature_count.txt.gz
+5fb81bfbe39632b818a872e9cc1117f2  ./GCA_902652275.1_CsymbiosumLFYP84_feature_table.txt.gz
+c429b3006398e21893395c57b52f7414  ./GCA_902652275.1_CsymbiosumLFYP84_genomic.fna.gz
+a36e1e209aff676353aa64bbcee63b32  ./GCA_902652275.1_CsymbiosumLFYP84_genomic.gbff.gz
+4021ed2cd638fc50a38c85004811224d  ./GCA_902652275.1_CsymbiosumLFYP84_genomic.gff.gz
+a5e8cc83021c661c4ec6b5064a21252a  ./GCA_902652275.1_CsymbiosumLFYP84_genomic.gtf.gz
+12171d9cab23fdb95bc9834e5890d127  ./GCA_902652275.1_CsymbiosumLFYP84_protein.faa.gz
+0f5e669e299302f898723e4d0ac6a24e  ./GCA_902652275.1_CsymbiosumLFYP84_protein.gpff.gz
+fc4624034cb0d0525fd590701edd5b24  ./GCA_902652275.1_CsymbiosumLFYP84_rna_from_genomic.fna.gz
+9174296c3d5cb1882d4bd567d606ceba  ./GCA_902652275.1_CsymbiosumLFYP84_translated_cds.faa.gz
+e5f803c7679de782db75ef5db0e18cf8  ./GCA_902652275.1_CsymbiosumLFYP84_wgsmaster.gbff.gz
+fdd2689c13461e376ea518d584db9b12  ./annotation_hashes.txt

@@ -1,0 +1,70 @@
+label	anim_species
+C. bolteae FYP116	bolteae
+C. clostridioforme AM07-19	bolteae
+90A7.00001	bolteae
+C. clostridioforme 90A7	bolteae
+C. bolteae 90B8	bolteae
+C. bolteae 90A9	bolteae
+C. bolteae 90B3	bolteae
+C. bolteae AF24-13	bolteae
+C. bolteae TF09-4AC	bolteae
+C. bolteae AF14-18	bolteae
+C. bolteae AF27-9	bolteae
+C. bolteae 90A5	bolteae
+C. bolteae 90B7	bolteae
+C. bolteae ATCC BAA-613	bolteae
+C. bolteae WAL-14578	bolteae
+C. bolteae MGYG-HGUT-01493	bolteae
+C. bolteae ATCC BAA-613	bolteae
+C. bolteae ATCC BAA-613	bolteae
+BAA613.00001	bolteae
+C. bolteae ATCC BAA-613	bolteae
+C. bolteae OF13-16	bolteae
+C. bolteae AM35-14	bolteae
+C. clostridioforme AGR2157	clostridioforme
+C. bolteae W0P25.026	clostridioforme
+YL32.00001	clostridioforme
+C. clostridioforme YL32	clostridioforme
+L. sp. YL32 YL32	clostridioforme
+L. sp. YL32 YL32	clostridioforme
+C. clostridioforme 2789STDY5834865	clostridioforme
+C. clostridioforme 1001175st1_C5	clostridioforme
+C. clostridioforme LM41A (hybrid)	clostridioforme
+C. clostridioforme LM42D (hybrid)	clostridioforme
+LM42D.00001	clostridioforme
+LM41A.00001	clostridioforme
+C. clostridioforme NCTC11224	clostridioforme
+C. clostridioforme NLAE-zl-G208	clostridioforme
+C. clostridioforme NLAE-zl-C196	clostridioforme
+C. clostridioforme 90A8	clostridioforme
+C. clostridioforme 2_1_49FAA	clostridioforme
+C. clostridioforme MGYG-HGUT-01386	clostridioforme
+C. clostridioforme CM201	clostridioforme
+CM201.00001	clostridioforme
+C. clostridioforme 90A3	clostridioforme
+C. clostridioforme 90B1	clostridioforme
+C. clostridioforme NBRC 113352	clostridioforme
+C. clostridioforme ATCC 25537	clostridioforme
+C. clostridioforme 90A1	clostridioforme
+C. clostridioforme 90A4	clostridioforme
+C. clostridioforme WAL-7855	clostridioforme
+C. bolteae W0P9.022	sp_nov
+C. symbiosum TS_8243C_mod2	symbiosum
+C. symbiosum OF01-1AC	symbiosum
+C. symbiosum FYP84	symbiosum
+LM19B.00001	symbiosum
+LM19R.00001	symbiosum
+C. symbiosum LM19R (hybrid)	symbiosum
+C. symbiosum LM19B (hybrid)	symbiosum
+C. symbiosum WAL-14673	symbiosum
+C. symbiosum MGYG-HGUT-01367	symbiosum
+C. symbiosum LT0011	symbiosum
+LT0011.00001	symbiosum
+C. symbiosum NZ_FIZZ01000001	symbiosum
+C. symbiosum WAL-14163	symbiosum
+C. symbiosum 2789STDY5834864	symbiosum
+C. symbiosum AM39-1BH	symbiosum
+C. symbiosum BSD2780061688st1_G6	symbiosum
+C. symbiosum NCTC13233	symbiosum
+C14940.00001	symbiosum
+C. symbiosum ATCC 14940	symbiosum
