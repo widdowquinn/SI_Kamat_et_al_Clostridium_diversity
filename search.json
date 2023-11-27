@@ -84,6 +84,69 @@
     "text": "How to use the repository\nThe GitHub repository associated with this page contains supporting data for the Kamat et al. paper “Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis.” It also provides scripts used to generate the supporting data.\nTo clone the repository to your own machine using git, issue the command:\ngit clone git@github.com:widdowquinn/SI_Kamat_et_al_Clostridium_diversity\nAll data and analyses can be found in the assets/analysis subdirectory."
   },
   {
+    "objectID": "orthologues 2.html",
+    "href": "orthologues 2.html",
+    "title": "Orthologue Finding",
+    "section": "",
+    "text": "Orthologue finding was carried out on the protein sequences predicted by prodigal in the directory /assets/analysis/2021-06-22_CDS/proteins using orthofinder v2.5.2. This was run on a CLIMB-MRC server with the command:\northofinder -t 8 -a 8 -f 2021-06-22_CDS/proteins/ -o 2021-07-07_orthofinder\nNOTE: this analysis was not conducted on the Nanopore-only assembly annotations, as their CDS were suspected to be of low quality."
+  },
+  {
+    "objectID": "orthologues 2.html#analysis",
+    "href": "orthologues 2.html#analysis",
+    "title": "Orthologue Finding",
+    "section": "",
+    "text": "Orthologue finding was carried out on the protein sequences predicted by prodigal in the directory /assets/analysis/2021-06-22_CDS/proteins using orthofinder v2.5.2. This was run on a CLIMB-MRC server with the command:\northofinder -t 8 -a 8 -f 2021-06-22_CDS/proteins/ -o 2021-07-07_orthofinder\nNOTE: this analysis was not conducted on the Nanopore-only assembly annotations, as their CDS were suspected to be of low quality."
+  },
+  {
+    "objectID": "orthologues 2.html#output",
+    "href": "orthologues 2.html#output",
+    "title": "Orthologue Finding",
+    "section": "2 Output",
+    "text": "2 Output\nOutput is placed in the subdirectory /assets/analysis/2021-07-07_OrthoFinder under the following directories:\n\nSingle_Copy_Orthologue_Sequences: contains 974 multiple sequence (protein) FASTA files containing predicted single-copy orthologues from the 70-genome set of annotated proteins\nSpecies_Tree: the species tree built by orthofinder and used for identification of orthologues."
+  },
+  {
+    "objectID": "pangenomes 2.html",
+    "href": "pangenomes 2.html",
+    "title": "Pangenome Analysis",
+    "section": "",
+    "text": "All genomes were reannotated with prokka using the script 03-prokka.snakefile, and subdivided into groups by species, as determined by ANIm analysis, in the subdirectory assets/analysis/2021-08-19_split_genomes, using the script split_species.py.\nThese genomes were then analysed by roary v3.12.0 using the script 04-roary.sh."
+  },
+  {
+    "objectID": "pangenomes 2.html#analysis",
+    "href": "pangenomes 2.html#analysis",
+    "title": "Pangenome Analysis",
+    "section": "",
+    "text": "All genomes were reannotated with prokka using the script 03-prokka.snakefile, and subdivided into groups by species, as determined by ANIm analysis, in the subdirectory assets/analysis/2021-08-19_split_genomes, using the script split_species.py.\nThese genomes were then analysed by roary v3.12.0 using the script 04-roary.sh."
+  },
+  {
+    "objectID": "pangenomes 2.html#output",
+    "href": "pangenomes 2.html#output",
+    "title": "Pangenome Analysis",
+    "section": "2 Output",
+    "text": "2 Output\nroary output is subdivided by species group in the subdirectory assets/analysis/2021-08-19_roary."
+  },
+  {
+    "objectID": "phage 2.html",
+    "href": "phage 2.html",
+    "title": "Phage Prediction",
+    "section": "",
+    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
+  },
+  {
+    "objectID": "phage 2.html#analysis",
+    "href": "phage 2.html#analysis",
+    "title": "Phage Prediction",
+    "section": "",
+    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
+  },
+  {
+    "objectID": "phage 2.html#output",
+    "href": "phage 2.html#output",
+    "title": "Phage Prediction",
+    "section": "2 Output",
+    "text": "2 Output\nThe returned output can be found in the repository subdirectory assets/analysis/2021-09-06_phaster."
+  },
+  {
     "objectID": "antismash.html",
     "href": "antismash.html",
     "title": "Biosynthetic Gene Cluster Prediction",
