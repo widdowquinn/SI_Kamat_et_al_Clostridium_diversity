@@ -1,0 +1,29 @@
+---
+title: "Phage Prediction"
+image: ./assets/images/phage.png
+description: |
+ Phage prediction using PHASTER
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## Analysis
+
+Frederik Boulund's `phaster.py` script was used to submit each genome to the PHASTER server (2021-09-06) for annotation.
+
+## Output
+
+The returned output can be found in the repository subdirectory `assets/analysis/2021-09-06_phaster`.

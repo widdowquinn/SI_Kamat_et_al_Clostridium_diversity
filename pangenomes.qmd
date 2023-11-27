@@ -1,0 +1,31 @@
+---
+title: "Pangenome Analysis"
+image: ./assets/images/conserved_vs_total_genes.png
+description: |
+ Pangenome estimation using `roary`
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## Analysis
+
+All genomes were reannotated with `prokka` using the script `03-prokka.snakefile`, and subdivided into groups by species, as determined by [ANIm analysis](anim.qmd), in the subdirectory `assets/analysis/2021-08-19_split_genomes`, using the script `split_species.py`.
+
+These genomes were then analysed by `roary` v3.12.0 using the script `04-roary.sh`.
+
+## Output
+
+`roary` output is subdivided by species group in the subdirectory `assets/analysis/2021-08-19_roary`.

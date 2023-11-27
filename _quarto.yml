@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  title: "SI_Kamat_et_al"
+  navbar:
+    logo: ./assets/images/sipbs_compbio.png
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Analyses"
+        menu: 
+          - text: "ANIm"
+            href: anim.qmd
+          - text: "Annotation"
+            href: annotation.qmd
+          - text: "Finding orthologues"
+            href: orthologues.qmd
+          - text: "Pangenomes"
+            href: pangenomes.qmd
+          - text: "Phage identification"
+            href: phage.qmd
+          - text: "Biosynthetic Gene Clusters"
+            href: antismash.qmd
+        
+
+format:
+  html:
+    theme: simplex
+    toc: true    
+    css: styles.css
+    embed-resources: true
+
+editor: source
+
+execute: 
+  freeze: auto
+
+
+

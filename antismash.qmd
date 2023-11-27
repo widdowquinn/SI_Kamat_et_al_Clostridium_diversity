@@ -1,0 +1,29 @@
+---
+title: "Biosynthetic Gene Cluster Prediction"
+image: ./assets/images/antismash.png
+description: |
+ Biosynthetic Gene Cluster prediction using antiSMASH
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## Analysis
+
+The `05-antismash.snakefile` script was used to annotated each genome using `antiSMASH` v6.0.1.
+
+## Output
+
+`antiSMASH` output for each genome can be found in the repository subdirectory `assets/analysis/2021-08-19_antismash`.

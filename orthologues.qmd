@@ -1,0 +1,38 @@
+---
+title: "Orthologue Finding"
+image: ./assets/images/orthologues.png
+description: |
+ `orthofinder` identification of orthologues
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## Analysis
+
+Orthologue finding was carried out on the protein sequences predicted by `prodigal` in the directory `/assets/analysis/2021-06-22_CDS/proteins` using `orthofinder` v2.5.2. This was run on a CLIMB-MRC server with the command:
+
+```bash
+orthofinder -t 8 -a 8 -f 2021-06-22_CDS/proteins/ -o 2021-07-07_orthofinder
+```
+
+**NOTE**: this analysis was not conducted on the Nanopore-only assembly annotations, as their CDS were suspected to be of low quality.
+
+## Output
+
+Output is placed in the subdirectory `/assets/analysis/2021-07-07_OrthoFinder` under the following directories:
+
+- `Single_Copy_Orthologue_Sequences`: contains 974 multiple sequence (protein) FASTA files containing predicted single-copy orthologues from the 70-genome set of annotated proteins
+- `Species_Tree`: the species tree built by `orthofinder` and used for identification of orthologues.

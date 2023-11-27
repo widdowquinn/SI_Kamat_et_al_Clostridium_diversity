@@ -1,0 +1,37 @@
+---
+title: "CDS Annotation"
+image: ./assets/images/annotation.png
+description: |
+ CDS Annotation with `prodigal`
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## Analysis
+
+To ensure consistency of single-copy orthologue analyses (so that analysis results are not confounded with choice of annotation/gene-calling tool) all genomes in `assets/analysis/2021-06-19_ANIm/bolteae_clostridioforme_symbiosum_genomes` **except for the lower-quality initial assemblies of LM19B, LM19R, LM41A and LM42D** had CDS called by `prodigal` v2.6.3, using the `assets/analysis/01-call_cds.sh` script:
+
+```bash
+bash call_cds.sh
+```
+
+## Output
+
+Output can be found in the repository subdirectory `assets/analysis/2021-06-22_CDS` under three directories:
+
+- `cds`: the CDS on the genome (FASTA)
+- `proteins`: the conceptual translations of those CDS (FASTA)
+- `gbk`: annotated genome files (GenBank)

@@ -1,0 +1,12 @@
+# R project files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto files
+/.quarto/
+/_site/
+
+# macOS files
+.DS_Store

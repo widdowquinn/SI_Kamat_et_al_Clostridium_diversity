@@ -1,0 +1,63 @@
+---
+title: "ANIm analysis"
+image: ./assets/images/matrix_identity_run3.png
+description: |
+ Average Nucleotide Identity analysis
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## Analysis
+
+The Average Nucleotide Identity (ANIm) analysis can be found in the `assets/analysis/2021-06-19_ANIm` repository subdirectory.
+
+ANIm was conducted using [`pyani` v0.3.0](https://github.com/widdowquinn/pyani) with the commands:
+
+```bash
+pyani createdb -v -l pyani_logs/00-createdb.log
+pyani index -v -l 01-index.log \
+  bolteae_clostridioforme_symbiosum_genomes \
+  --labels labels.txt \
+  --classes classes.txt
+pyani anim --debug -l 02-anim.log \
+  -i bolteae_clostridioforme_symbiosum_genomes \
+  -o anim_out \
+  --scheduler SLURM \
+  --labels bolteae_clostridioforme_symbiosum_genomes/labels.txt \
+  --classes bolteae_clostridioforme_symbiosum_genomes/classes.txt
+pyani plot -v -l 03-plot.log \
+  anim_plots 1 \
+  --formats png,pdf
+
+# hybrid assembly genomes added; labels/classes files updated manually
+# in new_labels.txt, new_classes.txt
+
+pyani anim --debug -l 04-anim_hybrid.log \
+  -i bolteae_clostridioforme_symbiosum_genomes \
+  -o anim_out_hybrid \
+  --scheduler SLURM \
+  --labels bolteae_clostridioforme_symbiosum_genomes/new_labels.txt \
+  --classes bolteae_clostridioforme_symbiosum_genomes/new_classes.txt
+pyani plot -v -l 03-plot.log \
+  anim_plots_hybrid 3 \
+  --formats png,pdf
+```
+
+## Output
+
+The analysis files, including input genomes, are in the repository subdirectory `assets/analysis/2021-06-19_ANIm`.
+
+The `pyani` database is in the file `2021-06-19_ANIm/pyanidb/pyanidb`. Graphical output is in the directories `2021-06-19_ANIm/anim_plots` and `2021-06-19_ANIm/anim_plots_hybrid`. Log files cataloguing the analysis are in the `2021-06-19_ANIm/*.log` files.
