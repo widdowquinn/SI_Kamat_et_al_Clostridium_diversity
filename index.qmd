@@ -17,11 +17,13 @@ about:
 
 ## Welcome
 
-Welcome to the supplementary information repository for "Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis", by Kamat _et al._
+Welcome to the supplementary information repository for "Genomic diversity of novel strains of mammalian gut microbiome derived _Clostridium_ XIVa strains is driven by mobile genetic element acquisition", by Kamat _et al._
+
+- [bioRxiv preprint, doi:10.1101/2024.01.22.576618 ](https://www.biorxiv.org/content/10.1101/2024.01.22.576618v1)
 
 ## How to use the repository
 
-The [GitHub repository](https://github.com/widdowquinn/SI_Kamat_et_al_Clostridium_diversity) associated with this page contains supporting data for the Kamat _et al._ paper "Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis." It also provides scripts used to generate the supporting data.
+The [GitHub repository](https://github.com/widdowquinn/SI_Kamat_et_al_Clostridium_diversity) associated with this page contains supporting data for the Kamat _et al._ paper "Genomic diversity of novel strains of mammalian gut microbiome derived _Clostridium_ XIVa strains is driven by mobile genetic element acquisition." It also provides scripts used to generate the supporting data.
 
 To clone the repository to your own machine using `git`, issue the command:
 
@@ -29,4 +31,4 @@ To clone the repository to your own machine using `git`, issue the command:
 git clone git@github.com:widdowquinn/SI_Kamat_et_al_Clostridium_diversity
 ```
 
-All data and analyses can be found in the `assets/analysis` subdirectory.
+All data and analyses can be found in the `assets/analysis` subdirectory, and summaries of the analyses can be found by following the `Analyses` menu option, to the top right.
