@@ -21,25 +21,25 @@
     "text": "2 Output\nOutput can be found in the repository subdirectory assets/analysis/2021-06-22_CDS under three directories:\n\ncds: the CDS on the genome (FASTA)\nproteins: the conceptual translations of those CDS (FASTA)\ngbk: annotated genome files (GenBank)"
   },
   {
-    "objectID": "phage.html",
-    "href": "phage.html",
-    "title": "Phage Prediction",
+    "objectID": "anim.html",
+    "href": "anim.html",
+    "title": "ANIm analysis",
     "section": "",
-    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
+    "text": "The Average Nucleotide Identity (ANIm) analysis can be found in the assets/analysis/2021-06-19_ANIm repository subdirectory.\nANIm was conducted using pyani v0.3.0 with the commands:\npyani createdb -v -l pyani_logs/00-createdb.log\npyani index -v -l 01-index.log \\\n  bolteae_clostridioforme_symbiosum_genomes \\\n  --labels labels.txt \\\n  --classes classes.txt\npyani anim --debug -l 02-anim.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots 1 \\\n  --formats png,pdf\n\n# hybrid assembly genomes added; labels/classes files updated manually\n# in new_labels.txt, new_classes.txt\n\npyani anim --debug -l 04-anim_hybrid.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out_hybrid \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/new_labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/new_classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots_hybrid 3 \\\n  --formats png,pdf"
   },
   {
-    "objectID": "phage.html#analysis",
-    "href": "phage.html#analysis",
-    "title": "Phage Prediction",
+    "objectID": "anim.html#analysis",
+    "href": "anim.html#analysis",
+    "title": "ANIm analysis",
     "section": "",
-    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
+    "text": "The Average Nucleotide Identity (ANIm) analysis can be found in the assets/analysis/2021-06-19_ANIm repository subdirectory.\nANIm was conducted using pyani v0.3.0 with the commands:\npyani createdb -v -l pyani_logs/00-createdb.log\npyani index -v -l 01-index.log \\\n  bolteae_clostridioforme_symbiosum_genomes \\\n  --labels labels.txt \\\n  --classes classes.txt\npyani anim --debug -l 02-anim.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots 1 \\\n  --formats png,pdf\n\n# hybrid assembly genomes added; labels/classes files updated manually\n# in new_labels.txt, new_classes.txt\n\npyani anim --debug -l 04-anim_hybrid.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out_hybrid \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/new_labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/new_classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots_hybrid 3 \\\n  --formats png,pdf"
   },
   {
-    "objectID": "phage.html#output",
-    "href": "phage.html#output",
-    "title": "Phage Prediction",
+    "objectID": "anim.html#output",
+    "href": "anim.html#output",
+    "title": "ANIm analysis",
     "section": "2 Output",
-    "text": "2 Output\nThe returned output can be found in the repository subdirectory assets/analysis/2021-09-06_phaster."
+    "text": "2 Output\nThe analysis files, including input genomes, are in the repository subdirectory assets/analysis/2021-06-19_ANIm.\nThe pyani database is in the file 2021-06-19_ANIm/pyanidb/pyanidb. Graphical output is in the directories 2021-06-19_ANIm/anim_plots and 2021-06-19_ANIm/anim_plots_hybrid. Log files cataloguing the analysis are in the 2021-06-19_ANIm/*.log files."
   },
   {
     "objectID": "orthologues.html",
@@ -61,90 +61,6 @@
     "title": "Orthologue Finding",
     "section": "2 Output",
     "text": "2 Output\nOutput is placed in the subdirectory /assets/analysis/2021-07-07_OrthoFinder under the following directories:\n\nSingle_Copy_Orthologue_Sequences: contains 974 multiple sequence (protein) FASTA files containing predicted single-copy orthologues from the 70-genome set of annotated proteins\nSpecies_Tree: the species tree built by orthofinder and used for identification of orthologues."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Supplementary Information for Kamat et al.",
-    "section": "",
-    "text": "Welcome to the supplementary information repository for “Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis”, by Kamat et al."
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Supplementary Information for Kamat et al.",
-    "section": "",
-    "text": "Welcome to the supplementary information repository for “Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis”, by Kamat et al."
-  },
-  {
-    "objectID": "index.html#how-to-use-the-repository",
-    "href": "index.html#how-to-use-the-repository",
-    "title": "Supplementary Information for Kamat et al.",
-    "section": "How to use the repository",
-    "text": "How to use the repository\nThe GitHub repository associated with this page contains supporting data for the Kamat et al. paper “Genomic diversity of mammalian gut microbiome derived Lachnospiraceae associated with the microbiome-gut-brain axis.” It also provides scripts used to generate the supporting data.\nTo clone the repository to your own machine using git, issue the command:\ngit clone git@github.com:widdowquinn/SI_Kamat_et_al_Clostridium_diversity\nAll data and analyses can be found in the assets/analysis subdirectory."
-  },
-  {
-    "objectID": "orthologues 2.html",
-    "href": "orthologues 2.html",
-    "title": "Orthologue Finding",
-    "section": "",
-    "text": "Orthologue finding was carried out on the protein sequences predicted by prodigal in the directory /assets/analysis/2021-06-22_CDS/proteins using orthofinder v2.5.2. This was run on a CLIMB-MRC server with the command:\northofinder -t 8 -a 8 -f 2021-06-22_CDS/proteins/ -o 2021-07-07_orthofinder\nNOTE: this analysis was not conducted on the Nanopore-only assembly annotations, as their CDS were suspected to be of low quality."
-  },
-  {
-    "objectID": "orthologues 2.html#analysis",
-    "href": "orthologues 2.html#analysis",
-    "title": "Orthologue Finding",
-    "section": "",
-    "text": "Orthologue finding was carried out on the protein sequences predicted by prodigal in the directory /assets/analysis/2021-06-22_CDS/proteins using orthofinder v2.5.2. This was run on a CLIMB-MRC server with the command:\northofinder -t 8 -a 8 -f 2021-06-22_CDS/proteins/ -o 2021-07-07_orthofinder\nNOTE: this analysis was not conducted on the Nanopore-only assembly annotations, as their CDS were suspected to be of low quality."
-  },
-  {
-    "objectID": "orthologues 2.html#output",
-    "href": "orthologues 2.html#output",
-    "title": "Orthologue Finding",
-    "section": "2 Output",
-    "text": "2 Output\nOutput is placed in the subdirectory /assets/analysis/2021-07-07_OrthoFinder under the following directories:\n\nSingle_Copy_Orthologue_Sequences: contains 974 multiple sequence (protein) FASTA files containing predicted single-copy orthologues from the 70-genome set of annotated proteins\nSpecies_Tree: the species tree built by orthofinder and used for identification of orthologues."
-  },
-  {
-    "objectID": "pangenomes 2.html",
-    "href": "pangenomes 2.html",
-    "title": "Pangenome Analysis",
-    "section": "",
-    "text": "All genomes were reannotated with prokka using the script 03-prokka.snakefile, and subdivided into groups by species, as determined by ANIm analysis, in the subdirectory assets/analysis/2021-08-19_split_genomes, using the script split_species.py.\nThese genomes were then analysed by roary v3.12.0 using the script 04-roary.sh."
-  },
-  {
-    "objectID": "pangenomes 2.html#analysis",
-    "href": "pangenomes 2.html#analysis",
-    "title": "Pangenome Analysis",
-    "section": "",
-    "text": "All genomes were reannotated with prokka using the script 03-prokka.snakefile, and subdivided into groups by species, as determined by ANIm analysis, in the subdirectory assets/analysis/2021-08-19_split_genomes, using the script split_species.py.\nThese genomes were then analysed by roary v3.12.0 using the script 04-roary.sh."
-  },
-  {
-    "objectID": "pangenomes 2.html#output",
-    "href": "pangenomes 2.html#output",
-    "title": "Pangenome Analysis",
-    "section": "2 Output",
-    "text": "2 Output\nroary output is subdivided by species group in the subdirectory assets/analysis/2021-08-19_roary."
-  },
-  {
-    "objectID": "phage 2.html",
-    "href": "phage 2.html",
-    "title": "Phage Prediction",
-    "section": "",
-    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
-  },
-  {
-    "objectID": "phage 2.html#analysis",
-    "href": "phage 2.html#analysis",
-    "title": "Phage Prediction",
-    "section": "",
-    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
-  },
-  {
-    "objectID": "phage 2.html#output",
-    "href": "phage 2.html#output",
-    "title": "Phage Prediction",
-    "section": "2 Output",
-    "text": "2 Output\nThe returned output can be found in the repository subdirectory assets/analysis/2021-09-06_phaster."
   },
   {
     "objectID": "antismash.html",
@@ -175,6 +91,48 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "phage.html",
+    "href": "phage.html",
+    "title": "Phage Prediction",
+    "section": "",
+    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
+  },
+  {
+    "objectID": "phage.html#analysis",
+    "href": "phage.html#analysis",
+    "title": "Phage Prediction",
+    "section": "",
+    "text": "Frederik Boulund’s phaster.py script was used to submit each genome to the PHASTER server (2021-09-06) for annotation."
+  },
+  {
+    "objectID": "phage.html#output",
+    "href": "phage.html#output",
+    "title": "Phage Prediction",
+    "section": "2 Output",
+    "text": "2 Output\nThe returned output can be found in the repository subdirectory assets/analysis/2021-09-06_phaster."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Supplementary Information for Kamat et al.",
+    "section": "",
+    "text": "Welcome to the supplementary information repository for “Genomic diversity of novel strains of mammalian gut microbiome derived Clostridium XIVa strains is driven by mobile genetic element acquisition”, by Kamat et al.\n\nbioRxiv preprint, doi:10.1101/2024.01.22.576618"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Supplementary Information for Kamat et al.",
+    "section": "",
+    "text": "Welcome to the supplementary information repository for “Genomic diversity of novel strains of mammalian gut microbiome derived Clostridium XIVa strains is driven by mobile genetic element acquisition”, by Kamat et al.\n\nbioRxiv preprint, doi:10.1101/2024.01.22.576618"
+  },
+  {
+    "objectID": "index.html#how-to-use-the-repository",
+    "href": "index.html#how-to-use-the-repository",
+    "title": "Supplementary Information for Kamat et al.",
+    "section": "How to use the repository",
+    "text": "How to use the repository\nThe GitHub repository associated with this page contains supporting data for the Kamat et al. paper “Genomic diversity of novel strains of mammalian gut microbiome derived Clostridium XIVa strains is driven by mobile genetic element acquisition.” It also provides scripts used to generate the supporting data.\nTo clone the repository to your own machine using git, issue the command:\ngit clone git@github.com:widdowquinn/SI_Kamat_et_al_Clostridium_diversity\nAll data and analyses can be found in the assets/analysis subdirectory, and summaries of the analyses can be found by following the Analyses menu option, to the top right."
+  },
+  {
     "objectID": "pangenomes.html",
     "href": "pangenomes.html",
     "title": "Pangenome Analysis",
@@ -194,26 +152,5 @@
     "title": "Pangenome Analysis",
     "section": "2 Output",
     "text": "2 Output\nroary output is subdivided by species group in the subdirectory assets/analysis/2021-08-19_roary."
-  },
-  {
-    "objectID": "anim.html",
-    "href": "anim.html",
-    "title": "ANIm analysis",
-    "section": "",
-    "text": "The Average Nucleotide Identity (ANIm) analysis can be found in the assets/analysis/2021-06-19_ANIm repository subdirectory.\nANIm was conducted using pyani v0.3.0 with the commands:\npyani createdb -v -l pyani_logs/00-createdb.log\npyani index -v -l 01-index.log \\\n  bolteae_clostridioforme_symbiosum_genomes \\\n  --labels labels.txt \\\n  --classes classes.txt\npyani anim --debug -l 02-anim.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots 1 \\\n  --formats png,pdf\n\n# hybrid assembly genomes added; labels/classes files updated manually\n# in new_labels.txt, new_classes.txt\n\npyani anim --debug -l 04-anim_hybrid.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out_hybrid \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/new_labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/new_classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots_hybrid 3 \\\n  --formats png,pdf"
-  },
-  {
-    "objectID": "anim.html#analysis",
-    "href": "anim.html#analysis",
-    "title": "ANIm analysis",
-    "section": "",
-    "text": "The Average Nucleotide Identity (ANIm) analysis can be found in the assets/analysis/2021-06-19_ANIm repository subdirectory.\nANIm was conducted using pyani v0.3.0 with the commands:\npyani createdb -v -l pyani_logs/00-createdb.log\npyani index -v -l 01-index.log \\\n  bolteae_clostridioforme_symbiosum_genomes \\\n  --labels labels.txt \\\n  --classes classes.txt\npyani anim --debug -l 02-anim.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots 1 \\\n  --formats png,pdf\n\n# hybrid assembly genomes added; labels/classes files updated manually\n# in new_labels.txt, new_classes.txt\n\npyani anim --debug -l 04-anim_hybrid.log \\\n  -i bolteae_clostridioforme_symbiosum_genomes \\\n  -o anim_out_hybrid \\\n  --scheduler SLURM \\\n  --labels bolteae_clostridioforme_symbiosum_genomes/new_labels.txt \\\n  --classes bolteae_clostridioforme_symbiosum_genomes/new_classes.txt\npyani plot -v -l 03-plot.log \\\n  anim_plots_hybrid 3 \\\n  --formats png,pdf"
-  },
-  {
-    "objectID": "anim.html#output",
-    "href": "anim.html#output",
-    "title": "ANIm analysis",
-    "section": "2 Output",
-    "text": "2 Output\nThe analysis files, including input genomes, are in the repository subdirectory assets/analysis/2021-06-19_ANIm.\nThe pyani database is in the file 2021-06-19_ANIm/pyanidb/pyanidb. Graphical output is in the directories 2021-06-19_ANIm/anim_plots and 2021-06-19_ANIm/anim_plots_hybrid. Log files cataloguing the analysis are in the 2021-06-19_ANIm/*.log files."
   }
 ]
